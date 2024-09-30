@@ -1,0 +1,29 @@
+.Navbar {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  margin: 0;
+}
+
+/* Responsive mobile */
+
+@media only screen and (max-width: 450px) {
+  .Navbar {
+    max-width: 450px !important;
+    margin: 0 auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+}
+
+*{
+  overflow-x: hidden;
+}
+/* #################################### */

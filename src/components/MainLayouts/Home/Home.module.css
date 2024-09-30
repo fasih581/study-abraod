@@ -1,0 +1,38 @@
+.Navbar {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .Home {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .FooterBox{
+    padding: 50px 0 50px 0;
+    background: #002F6C;
+    border-radius: 70px 70px 0 0;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+
+  /* Responsive */
+
+  @media only screen and (max-width: 450px) {
+
+    .Navbar {
+      max-width: 450px !important;
+    }
+    
+  .Home {
+    max-width: 450px !important;
+    margin: 0 auto;
+  }
+}
+
+/* #################################### */

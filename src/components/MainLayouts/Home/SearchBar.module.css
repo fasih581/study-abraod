@@ -1,0 +1,54 @@
+.SearchBox {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.SearchBox input {
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #FFA500;
+    background: #FFF;
+    width: 450px;
+    padding: 0 0 0 20px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.Btn {
+    border-radius: 10px;
+    background: #FFA500;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 110px;
+    height: 40px;
+}
+
+  /* Responsive */
+
+  @media only screen and (max-width: 450px) {
+
+
+    .SearchBox input {
+        width: 300px !important;
+    }
+
+    .Btn {
+        font-size: 16px !important;
+        width: 90px !important;
+    }
+}
+
+/* #################################### */

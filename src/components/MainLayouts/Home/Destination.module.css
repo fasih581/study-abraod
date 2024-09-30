@@ -1,0 +1,74 @@
+.BoxDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 150px;
+}
+
+.BoxDiv h1 {
+    color: #000;
+    text-align: center;
+    font-family: "Inria Serif";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Box {
+    width: 280px !important;
+    height: 240px !important;
+    border-radius: 25px;
+    border: 2px solid #000;
+    background: #FFF;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Img {
+    width: 200px;
+    height: 140px;
+}
+
+.Img img {
+    width: 100%;
+}
+
+.Box h6 {
+    color: #000;
+    font-family: "Inria Sans";
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    width: 183px;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+  /* Responsive */
+
+  @media only screen and (max-width: 450px) {
+
+    .BoxDiv h1 {
+        font-size: 50px !important;
+    }
+
+    .Box {
+        width: 320px !important;
+    }
+
+}
+
+@media only screen and (max-width: 330px) {
+
+    .Box {
+        width: 215px !important;
+    }
+
+}
+
+/* #################################### */

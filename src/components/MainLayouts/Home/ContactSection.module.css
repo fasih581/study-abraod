@@ -1,0 +1,118 @@
+.ContactDiv{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.ContactBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 60%;
+}
+
+.ContactBox h1{
+    color: #000;
+    font-family: "Inria Serif";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.ContactBox p{
+    text-align: center;
+}
+
+.ContactInfo{
+    display: flex;
+    gap: 30px;
+}
+
+.ContactInfo h6{
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.ContactBox span.IconBox{
+    height: 30px;
+    background: #FFA500;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icon{
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+}
+
+.ContactBox button{
+    width: 550px;
+    height: 50px;
+    border-radius: 10px;
+    background: #FFA500;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+  /* Responsive */
+
+  @media only screen and (max-width: 450px) {
+
+    .ContactBox {
+        width: 90% !important;
+    }
+
+    .ContactBox h1 {
+        font-size: 50px !important;
+    }
+
+    .ContactBox p {
+        text-align: center;
+        font-size: 10px !important;
+    }
+
+    .ContactInfo {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .ContactInfo h6 {
+        font-size: 15px !important;
+    }
+
+    .Icon {
+        width: 15px !important;
+        height: 15px !important;
+        color: #ffffff;
+    }
+
+    .ContactBox button {
+        width: 90% !important;
+        height: 40px !important;
+        font-size: 15px !important;
+    }
+
+}
+
+/* #################################### */

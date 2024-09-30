@@ -1,0 +1,141 @@
+.Navbar {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.About {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.AboutTopic {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-bottom: 100px;
+}
+
+.AboutTopicRight {
+  border-radius: 0 50px 50px 0;
+  background: #6873BD;
+  margin-right: 230px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.AboutTopicLeft {
+  border-radius: 50px 0 0 50px;
+  background: #6873BD;
+  margin-left: 230px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.AboutTopicLeft h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Inria Serif";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 50px;
+  width: 650px;
+  overflow-wrap: anywhere;
+}
+
+.AboutTopicRight h1 {
+  color: #FFF;
+  text-align: center;
+  font-family: "Inria Serif";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 50px;
+  width: 650px;
+  overflow-wrap: anywhere;
+}
+
+.AboutTopicLeft p {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 60%;
+  padding-bottom: 60px;
+}
+
+.AboutTopicRight p {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 60%;
+  padding-bottom: 60px;
+}
+
+.FooterBox {
+  padding: 50px 0 50px 0;
+  background: #002F6C;
+  border-radius: 70px 70px 0 0;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 450px) {
+
+  .Navbar {
+    max-width: 450px !important;
+  }
+
+  .About {
+    max-width: 450px !important;
+    margin: 0 auto;
+  }
+
+  .AboutTopicLeft {
+    margin-left: 80px !important;
+  }
+
+  .AboutTopicLeft h1 {
+    font-size: 50px !important;
+    width: unset !important;
+  }
+
+  .AboutTopicLeft p {
+    font-size: 10px !important;
+    width: 90% !important;
+  }
+
+  .AboutTopicRight {
+    margin-right: 80px !important;
+  }
+
+  .AboutTopicRight h1 {
+    font-size: 50px !important;
+    width: unset !important;
+  }
+
+  .AboutTopicRight p {
+    font-size: 10px !important;
+    width: 90% !important;
+  }
+}
+
+/* #################################### */

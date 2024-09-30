@@ -1,0 +1,143 @@
+.Navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.Navbar h3 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.List {
+    display: flex;
+    align-items: center;
+}
+
+.List ul {
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.List ul li {
+    list-style-type: none;
+    list-style-type: none;
+    color: #000;
+    font-family: "Inria Serif";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.btn_box {
+    display: flex;
+    gap: 10px;
+}
+
+.btn_box .btn {
+    border-radius: 5px;
+    background: #FFA500;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100px;
+    height: 32px;
+    border: none;
+}
+
+.btn_box .btn.Loginbtn {
+    background: none;
+    color: black;
+}
+
+.MenuList {
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    justify-content: center;
+}
+
+.MenuList ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.MenuList ul li {
+    list-style-type: none;
+    list-style-type: none;
+    color: #000;
+    font-family: "Inria Serif";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.MenuBtn_box {
+    display: flex;
+    gap: 10px;
+}
+
+.MenuBtn_box .btn {
+    border-radius: 5px;
+    background: #FFA500;
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100px;
+    height: 32px;
+    border: none;
+}
+
+.MenuBtn_box .btn.Loginbtn {
+    background: none;
+    color: black;
+}
+
+.Menu {
+    display: none !important;
+}
+
+/* Responsive mobile */
+
+@media only screen and (max-width: 450px) {
+
+    .Navbar h3 {
+        font-size: 20px !important;
+    }
+
+    .List {
+        display: none;
+    }
+
+    .btn_box .btn {
+        display: none;
+    }
+
+    .Menu {
+        display: block !important;
+        height: 35px !important;
+        background: #FFA500 !important;
+    }
+}
+
+/* #################################### */

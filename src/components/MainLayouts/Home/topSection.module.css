@@ -1,0 +1,95 @@
+.TopBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 60px 0 60Px 0px;
+}
+
+.box_left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.box_left h4{
+    color: #FFA500;
+    font-family: "Inria Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.box_left h1 {
+    margin: 0;
+    color: #000;
+    font-family: "Inria Serif";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.box_left p{
+    margin: 0;
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.Img_box{
+    width: 45%;
+}
+
+.Img_box img{
+    width: 100%;
+}
+
+  /* Responsive */
+
+  @media only screen and (max-width: 450px) {
+
+    .box_left h4 {
+        font-size: 18px !important;
+    }
+
+    .TopBox {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 60px 0 60Px 0px;
+        flex-direction: column;
+    }
+
+    .box_left {
+        width: 90% !important;
+    }
+
+    .box_left h1 {
+        font-size: 50px !important;
+    }
+
+    .box_left p {
+        font-size: 10px !important;
+    }
+
+    .Img_box {
+        width: 90% !important;
+    }
+
+    .SearchBox input {
+        width: 300px !important;
+    }
+
+    .Btn {
+        font-size: 16px !important;
+        width: 90px !important;
+    }
+}
+
+/* #################################### */

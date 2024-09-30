@@ -1,0 +1,152 @@
+.FooterDiv {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.FooterTop {
+  display: flex;
+  justify-content: space-around;
+}
+
+.CompanyDetailsBox {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.CompanyDetailsBox h2 {
+  color: #FFA500;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.CompanyDetailsBox p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.CompanyDetailsBox .IconBox {
+  display: flex;
+  gap: 8px;
+}
+
+.CompanyDetailsBox .IconBox .Icon {
+  width: 30px;
+  height: 30px;
+  color: #ffffff;
+}
+
+.DetailsBox {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.DetailsBox h4 {
+  margin: 0;
+  color: #FFA500;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.DetailsBox p {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 0;
+}
+
+.FooterBottom {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.FooterBottom p {
+  color: #FFA500;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.FooterBottom .CopyrightDiv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.FooterBottom .CopyrightIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  /* Responsive */
+
+  @media only screen and (max-width: 450px) {
+
+    .FooterDiv {
+      max-width: 450px !important;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+
+    .FooterTop {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+  }
+    
+  .CompanyDetailsBox {
+    width: 80% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.CompanyDetailsBox p {
+  font-size: 10px !important;
+  text-align: center;
+}
+
+.DetailsBox {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  align-items: center;
+}
+
+.FooterBottom {
+  display: flex;
+  gap: 10px !important;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+}
+
+/* #################################### */

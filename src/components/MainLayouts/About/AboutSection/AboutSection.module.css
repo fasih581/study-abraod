@@ -1,0 +1,60 @@
+.AboutDiv h1{
+    margin: 50px 0;
+    color: #000;
+    text-align: center;
+    font-family: "Inria Serif";
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.AboutDiv .ImgBox{
+    justify-content: center;
+    display: flex;
+}
+
+.AboutDiv .Img{
+    width: 500px;
+}
+
+img{
+    width: 100%;
+}
+
+.AboutDiv p{
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 50px 0;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 450px) {
+  
+    .AboutDiv {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .AboutDiv h1 {
+      font-size: 50px !important;
+    }
+  
+    .AboutDiv P {
+      width: 90% !important;
+    }
+
+    .AboutDiv .Img {
+        width: 90%;
+    }
+  
+  }
+  
+  /* #################################### */

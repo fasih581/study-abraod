@@ -1,0 +1,22 @@
+.SliderBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.SliderBox img {
+    width: 100%;
+}
+
+.ImgBox1 {
+    width: 190px;
+    height: 200px;
+    padding: 16px;
+}
+
+.ImgBox2 {
+    width: 190px;
+    height: 160px;
+    padding: 8px;
+}

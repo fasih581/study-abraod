@@ -1,0 +1,75 @@
+.Box{
+    margin-bottom: 50px;
+}
+
+.Box h1{
+    color: #000;
+    font-family: "Inria Serif";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Cards{
+    margin: 0 30px 60px 0;
+    display: flex;
+    gap: 30px;
+    background: none;
+}
+
+.Card{
+    height: 270px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 25px;
+    justify-content: center;
+    background: #FFF;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25)
+}
+
+.Card .Img img{
+    width: 110px;
+    border-radius: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+.CardBottom h5{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.CardBottom p{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 450px) {
+  
+    .Box h1 {
+      font-size: 50px !important;
+  }
+  
+  }
+  
+  /* #################################### */
